@@ -44,6 +44,7 @@
     let
       vars = {
         user = "dogth";
+        email = "dogth@kitteth.com";
         location = "$HOME/.setup";
         terminal = "alacritty";
         editor = "nvim";

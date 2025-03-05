@@ -11,8 +11,8 @@
         enable = true;
       };
       enable = true;
-      userName = "dogth";
-      userEmail = "dogth@kitteth.com";
+      userName = vars.user;
+      userEmail = vars.email;
       aliases = {
         co = "checkout";
         ci = "commit";
@@ -23,7 +23,7 @@
         pu = "push";
       };
       signing = {
-        key = "/Users/dogth/.ssh/git.pub";
+        key = "/Users/${vars.user}/.ssh/git.pub";
       };
       iniContent = {
         branch.sort = "-committerdate";
@@ -35,7 +35,7 @@
       ];
       lfs.enable = true;
       extraConfig = {
-        init.defaultBranch = "master"; # Undo breakage due to https://srid.ca/luxury-belief
+        init.defaultBranch = "master";
         core.editor = "nvim";
         credential.helper = "store --file ~/.git-credentials";
         pull.rebase = "false";

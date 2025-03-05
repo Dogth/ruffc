@@ -19,11 +19,12 @@
       VISUAL = "${vars.editor}";
     };
     systemPackages = with pkgs; [
-      eza # Ls
-      git # Version Control
-      mas # Mac App Store $ mas search <app>
-      yazi # File Manager
-      tldr # Help
+      eza
+      git
+      mas
+      yazi
+      tldr
+      quickemu
     ];
   };
 

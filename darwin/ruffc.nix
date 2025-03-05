@@ -7,14 +7,19 @@
   imports = import (./modules);
 
   environment = {
-    systemPackages =
-      [
-      ];
+    systemPackages = [
+    ];
   };
   homebrew = {
     casks = [
       "docker"
       "obsidian"
+      "prusaslicer"
+      "spotify"
+      "element"
+      "discord"
+      "autodesk-fusion"
+      "blender"
     ];
     masApps = {
       "Keynote" = 409183694;
@@ -28,7 +33,6 @@
       NSGlobalDomain = {
         AppleShowAllExtensions = true;
         NSAutomaticCapitalizationEnabled = false;
-        NSAutomaticSpellingCorrectionEnabled = false;
         "com.apple.mouse.tapBehavior" = 1;
         "com.apple.trackpad.enableSecondaryClick" = true;
       };
@@ -57,10 +61,6 @@
         };
         "~/Library/Preferences/ByHost/com.apple.controlcenter".BatteryShowPercentage = true;
         "com.apple.AdLib".allowApplePersonalizedAdvertising = false;
-      };
-      CustomSystemPreferences = {
-        # ~/Library/Preferences/
-
       };
     };
   };

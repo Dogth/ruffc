@@ -6,7 +6,6 @@
       ripgrep
       wget
       gnupg
-      eza
       nerd-fonts.jetbrains-mono
     ];
 
