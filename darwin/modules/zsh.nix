@@ -29,7 +29,7 @@
           ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#868686'
 
           alias ls="${pkgs.eza}/bin/eza --icons=always --color=always"
-          alias ev="neovide"
+          alias ev="nvim"
         '';
       };
       direnv = {

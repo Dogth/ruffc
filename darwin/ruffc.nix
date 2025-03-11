@@ -13,13 +13,14 @@
   homebrew = {
     casks = [
       "docker"
+      "wine-stable"
       "obsidian"
       "prusaslicer"
       "spotify"
       "element"
       "discord"
-      "autodesk-fusion"
       "blender"
+      "emacs"
     ];
     masApps = {
       "Keynote" = 409183694;
