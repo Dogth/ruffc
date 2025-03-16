@@ -66,6 +66,6 @@
   };
 
   system = {
-    stateVersion = 4;
+    stateVersion = 5;
   };
 }

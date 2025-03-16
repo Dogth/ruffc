@@ -4,4 +4,5 @@
   ./tmux.nix
   ./skhd.nix
   ./zsh.nix
+  ./latex.nix
 ]
