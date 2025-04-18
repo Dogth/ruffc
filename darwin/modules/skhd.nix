@@ -6,7 +6,7 @@
   services.skhd = {
     enable = true;
     skhdConfig = ''
-      alt - return: open -a Alacritty -n
+      alt - t: open -a Alacritty -n
       alt - e: open -a Neovide -n
     '';
   };
