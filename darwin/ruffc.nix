@@ -14,16 +14,15 @@
     casks = [
       "docker"
       "wine-stable"
-      "obsidian"
       "prusaslicer"
-      "spotify"
       "element"
       "discord"
-      "blender"
-      "emacs"
+      "utm"
+      "retroarch-metal"
     ];
     masApps = {
       "Keynote" = 409183694;
+      "Wireguard" = 1451685025;
       "Numbers" = 409203825;
       "Pages" = 409201541;
     };

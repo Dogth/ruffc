@@ -35,11 +35,6 @@
       upgrade = false;
       cleanup = "zap";
     };
-    casks = [
-    ];
-    masApps = {
-      "wireguard" = 1451685025;
-    };
   };
 
   home-manager.users.${vars.user} = {
@@ -49,7 +44,6 @@
     ];
 
     home.stateVersion = "22.05";
-
   };
 
   nix = {
