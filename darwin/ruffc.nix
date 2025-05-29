@@ -29,6 +29,7 @@
   };
 
   system = {
+    primaryUser = vars.user;
     defaults = {
       NSGlobalDomain = {
         AppleShowAllExtensions = true;
@@ -59,7 +60,6 @@
           DSDontWriteNetworkStores = true;
           DSDontWriteUSBStores = true;
         };
-        "~/Library/Preferences/ByHost/com.apple.controlcenter".BatteryShowPercentage = true;
         "com.apple.AdLib".allowApplePersonalizedAdvertising = false;
       };
     };

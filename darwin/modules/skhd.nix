@@ -6,8 +6,8 @@
   services.skhd = {
     enable = true;
     skhdConfig = ''
-      alt - p: open -a Alacritty -n
-      alt - e: open -a Neovide -n --maximized
+      cmd - p: open -a Alacritty -n
+      cmd - m: open -a Neovide --maximized --title-hidden
     '';
   };
   home-manager.users.${vars.user} = {

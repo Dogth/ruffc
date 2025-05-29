@@ -20,6 +20,8 @@
     };
     systemPackages = with pkgs; [
       eza
+      llvm
+      cmake
       git
       mas
       yazi
