@@ -13,15 +13,16 @@
   homebrew = {
     casks = [
       "docker"
-      "wine-stable"
       "prusaslicer"
       "element"
       "discord"
       "utm"
       "retroarch-metal"
+      "spotify"
     ];
     masApps = {
       "Keynote" = 409183694;
+      "Windows Apps" = 1295203466;
       "Wireguard" = 1451685025;
       "Numbers" = 409203825;
       "Pages" = 409201541;

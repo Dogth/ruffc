@@ -19,9 +19,18 @@
         enableCompletion = true;
         history.size = 10000;
         oh-my-zsh = {
+          theme = "philips";
           enable = true;
           plugins = [
             "macos"
+            "git"
+            "git-commit"
+            "jira"
+            "web-search"
+            "colorize"
+            "battery"
+            "brew"
+            "direnv"
           ];
         };
 
