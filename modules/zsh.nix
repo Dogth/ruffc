@@ -1,7 +1,7 @@
-{ pkgs, vars, ... }:
+{ pkgs, ... }:
 {
 
-  home-manager.users.${vars.user} = {
+  home-manager.users.dogth = {
     home.packages = with pkgs; [
       ripgrep
       wget
