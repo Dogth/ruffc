@@ -3,7 +3,6 @@
   environment = {
     variables = {
       EDITOR = "nvim";
-      VISUAL = "neovide";
     };
     systemPackages = with pkgs; [
       eza
